@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+.text-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.products{
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+.products h1{
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan';
+    font-weight: 700;
+}
+.products p{
+    margin-top: 2%;
+    color: hsl(303, 10%, 53%)
+}
+.rate-1,.rate-2,.rate-3{
+    width: 65%;
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    background:hsl(300, 24%, 96%);
+    justify-content: space-evenly;
+}
+.rate-1{
+    margin-top: 8%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+.rate-2{
+    margin-left: 10%;
+    margin-top: 2%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+.rate-3{
+    margin-left: 20%;
+    margin-top: 2%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+.cards-container{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+
+}
+.card{
+    border-radius: 7px;
+    height: 225px;
+    background: hsl(300, 43%, 22%);
+    width: 27%;
+}
+.card p {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 3%;
+}
+.card img{
+    border-radius: 50%;
+    width: 15%;
+}
+.name{
+    color: white;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: 'Spartan', sans-serif;
+}
+.verified{
+    color: hsl(333, 80%, 67%);
+    font-family: 'Spartan', sans-serif;
+}
+.attribution{
+    display: none;
+}
+.title{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.card-1{
+    margin-left: 8%;
+}
+.card-2{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.card-3{
+    margin-top: 4%;
+    margin-left: 2%;
+}
