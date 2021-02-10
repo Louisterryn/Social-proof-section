@@ -156,6 +156,9 @@ body{
         margin-left: 0%;
         margin-right: 0%;
     }
+    h2{
+        font-size: 9px;
+    }
     .products p{
         width: 100%;
     }
@@ -181,6 +184,7 @@ body{
     .card{
         width: 100%;
         margin: 0%;
+        height: 300px;
     }
     .card p{
         font-size: 15px;
