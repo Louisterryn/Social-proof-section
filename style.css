@@ -157,7 +157,8 @@ body{
         margin-right: 0%;
     }
     h2{
-        font-size: 9px;
+        font-size: 15px;
+        margin-left: 5%;
     }
     .products p{
         width: 100%;
@@ -187,7 +188,7 @@ body{
         height: 300px;
     }
     .card p{
-        font-size: 15px;
+        font-size: 12px;
     }
     .name{
         margin-top: 8%;
