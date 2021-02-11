@@ -116,6 +116,53 @@ body{
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1600px) {
+    .cards-container{
+        min-height: auto;
+    }
+
+
+}
+@media screen and (max-width: 1200px) {
+    .text-container{
+        display: block;
+        text-align: center;
+    }
+    .products{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 3%;
+    }
+    .products p{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .rate-1{
+        margin-top:2%;
+        margin-right:15%;
+        margin-left:15%;
+        width: 70%;
+    }
+    .rate-2,.rate-3{
+        margin-right:15%;
+        margin-left:15%;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+    .stars{
+        margin-right: 8%;
+        /* width: 50%; */
+    }
+    h2{
+      font-size: 16px;
+  }
+
+}
+
 @media screen and (max-width: 1100px) {
     h2{
         font-size: 12px;
@@ -128,26 +175,36 @@ body{
     }
 
   }
-
-  @media screen and (max-width: 1310px) {
-      .stars{
-          margin-right: 8%;
-          /* width: 50%; */
+  @media screen and (max-width:560px ){
+      .stars img{
+          width: 9px;
       }
-      h2{
-        font-size: 16px;
+
+      .rate-1 p,.rate-2 p,.rate-3 p{
+          font-size: 12px;
+      }
+  }
+  @media screen and (max-width: 690px){
+    .cards-container{
+        display: block;
+    }
+    .card{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .name{
+        margin-top: 8%;
+    }
+    .title img{
+        margin-top: 5%;
     }
 
   }
-  @media screen and (max-width: 1600px) {
-      .cards-container{
-          min-height: auto;
-      }
 
 
-  }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 426px) {
     .text-container{
         display: block;
         text-align: center;
@@ -157,11 +214,13 @@ body{
         margin-right: 0%;
     }
     h2{
-        font-size: 15px;
-        margin-left: 30px;
+        font-size: 20px;
+        margin-left: 5%;
     }
     .products p{
         width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
     }
     .rate-1,.rate-2,.rate-3{
         width: 100%;
@@ -169,12 +228,19 @@ body{
     }
     .rate-1 p,.rate-2 p,.rate-3 p{
         margin-top: 2%;
+        font-size: 15px;
+    }
+    .rate-1{
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .rate-2{
         margin-left: 0%;
+        margin-right: 0%;
     }
     .rate-3{
         margin-left: 0%;
+        margin-right: 0%;
     }
     .stars{
         margin-right: 0%;
@@ -185,10 +251,10 @@ body{
     .card{
         width: 100%;
         margin: 0%;
-        height: 275px;
+        height: 300px;
     }
     .card p{
-        font-size: 12px;
+        font-size: 17px;
     }
     .name{
         margin-top: 8%;
