@@ -10,11 +10,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    border: solid;
     min-height: 100vh;
 }
 .main{
-    border: solid;
     max-width: 1440px;
     display: flex;
     flex-direction: column;
