@@ -6,14 +6,24 @@
 body{
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: solid;
+    min-height: 100vh;
 }
 .main{
-    min-height: 100vh;
+    border: solid;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
 }
 .text-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 40vh;
+    flex-grow: 1;
+    height: 100%;
 }
 .products{
     margin-top: 8%;
@@ -24,45 +34,43 @@ body{
     color: hsl(300, 43%, 22%);
     font-family: 'Spartan';
     font-weight: 700;
+    width: 254px;
 }
 .products p{
     margin-top: 2%;
     color: hsl(303, 10%, 53%);
-    width: 79%;
+    width: 485px;
 }
 .stars{
     margin-right: 15%;
 }
 .rate-1,.rate-2,.rate-3{
-    width: 65%;
+    width: 530px;
     display: flex;
     padding: 1rem;
     border-radius: 10px;
     background:hsl(300, 24%, 96%);
     justify-content: center;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
 }
 .rate-1{
     margin-top: 8%;
-    color: hsl(300, 43%, 22%);
-    font-weight: 500;
 }
 .rate-2{
-    margin-left: 10%;
+    margin-left: 57px;
     margin-top: 2%;
-    color: hsl(300, 43%, 22%);
-    font-weight: 500;
 }
 .rate-3{
-    margin-left: 20%;
+    margin-left: 91px;
     margin-top: 2%;
-    color: hsl(300, 43%, 22%);
-    font-weight: 500;
 }
 .cards-container{
+    flex-grow: 1;
     display: flex;
     align-items: center;
-    min-height: 60vh;
-
+    padding-bottom: 50px;
+    padding-top: 40px;
 }
 .card{
     border-radius: 7px;
@@ -133,6 +141,9 @@ body{
         margin-right: 0%;
         margin-top: 3%;
     }
+    .products h1{
+        width: 100%;
+    }
     .products p{
         width: 50%;
         margin-left: 25%;
@@ -175,23 +186,13 @@ body{
     }
 
   }
-  @media screen and (max-width:560px ){
-      .stars img{
-          width: 9px;
-      }
-
-      .rate-1 p,.rate-2 p,.rate-3 p{
-          font-size: 12px;
-      }
-  }
   @media screen and (max-width: 690px){
     .cards-container{
         display: block;
     }
     .card{
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 70%;
+        margin: auto;
     }
     .name{
         margin-top: 8%;
@@ -202,6 +203,16 @@ body{
 
   }
 
+  @media screen and (max-width:560px ){
+      .stars img{
+          width: 9px;
+      }
+
+      .rate-1 p,.rate-2 p,.rate-3 p{
+          font-size: 12px;
+      }
+  }
+ 
 
 
 @media screen and (max-width: 426px) {
@@ -223,24 +234,14 @@ body{
         margin-left: 0%;
     }
     .rate-1,.rate-2,.rate-3{
-        width: 100%;
+        width: 95%;
         display: block;
+        margin: auto;
+        margin-top: 2%;
     }
     .rate-1 p,.rate-2 p,.rate-3 p{
         margin-top: 2%;
         font-size: 15px;
-    }
-    .rate-1{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .rate-2{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .rate-3{
-        margin-left: 0%;
-        margin-right: 0%;
     }
     .stars{
         margin-right: 0%;
@@ -249,8 +250,8 @@ body{
         display: block;
     }
     .card{
-        width: 100%;
-        margin: 0%;
+        width: 95%;
+        margin: auto;
         height: 300px;
     }
     .card p{
